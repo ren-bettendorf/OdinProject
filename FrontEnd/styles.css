@@ -1,0 +1,22 @@
+p {
+    color: red;
+	text-transform: uppercase;
+}
+
+#scissors {
+	color: blue;
+}
+
+.paper {
+	color: green;
+}
+
+a {
+    color: blue;
+}
+<!--[if IE]>
+<![endif]-->
+<!--[if IE6]>
+<![endif]-->
+<!--[if IE gt 6]>
+<![endif]-->

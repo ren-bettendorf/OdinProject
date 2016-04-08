@@ -2,6 +2,41 @@
 <html>
 	<head>
 		<title>CSS Example</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="styles.css">
 	</head>
+	<body>
+		<p>A red sentence</p>
+		<p>Span is <span class="paper">considered inline</span></p>
+		<div id="scissors">
+			<p>Div is considered a block line</p>
+		</div>
+		<!---
+		Action:
+			# means this webpage
+			Typically an action will post to another url
+		Method:
+			Three types of method: POST, GET, SET
+		Name:
+			Anything you want. Treat like variable
+		--->
+		
+		<form action="#" method="POST" name="my_form">
+			<!---
+				text is the type, but other types will follow below
+			--->
+			Username: <input type="text" name="username"> <br>
+			Password: <input type="password" name="password"> <br>
+			
+			<input type="radio" name="gender" value="Male">Male<br>
+			<input type="radio" name="gender" value="Female">Female<br>
+			
+			<input type="checkbox" name="foods" value="Grapes">Grapes<br>
+			<input type="checkbox" name="foods" value="Apples">Apples<br>
+			<input type="checkbox" name="foods" value="Bananas">Bananas<br>
+			
+			<input type="submit" value="Continue">
+			
+		</form>
+		
+	</body>
 </html>
